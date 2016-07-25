@@ -78,7 +78,10 @@
  <script src="js/jquery.js"></script> 
   <script src="js/bootstrap.min.js"></script>
    
-   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGcFR4sN8xW_8EjEc-7_EVyDTaFKnmfzY"></script>
+  
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGcFR4sN8xW_8EjEc-7_EVyDTaFKnmfzY&callback=initMap"
+  type="text/javascript"></script>
 
 <script>
     var markers = [
@@ -125,9 +128,9 @@
 // 	}
 ];
     window.onload = function () {
-        LoadMap();
+        initMap();
     }
-    function LoadMap() {
+    function initMap() {
         var mapOptions = {
             center: new google.maps.LatLng(markers[2].lat, markers[2].lng),
             zoom: 2,
@@ -163,7 +166,7 @@
         //close info window, reload to original map
            google.maps.event.addListener(infoWindow,'closeclick',function(){
            //reload the map function
-           	LoadMap();
+           	initMap();
            	});
             
         }
