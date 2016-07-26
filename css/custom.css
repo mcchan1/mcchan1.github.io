@@ -1,11 +1,13 @@
 body {
 	background: url(background.jpg);
-	background-size: 80%;
+	background-size: 50%;
+	color: #1c1a1c;
 }
 
 /* Custom Nav bar */
 .navbar {
 	text-align:center;
+
 }
 .navbar .nav {
 	float:none;
@@ -21,7 +23,7 @@ body {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: white;
+    color: #dcd9d0;
 }
 
 
