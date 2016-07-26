@@ -10,7 +10,20 @@
 .navbar .nav li {
 	display:inline-block;
     float:none;
+    font-size: 18px;
 }
+
+#contact-me {
+	color: #ffd700;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+
+
+
 
 /*.header {
     display: table;
@@ -26,4 +39,13 @@
 
 .about {
 	padding: 50px;
+}
+
+.projects {
+	padding: ;
+}
+
+.borders {
+    border-bottom-style: solid;
+    border-bottom-width: thin;
 }
