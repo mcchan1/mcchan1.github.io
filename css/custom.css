@@ -4,6 +4,10 @@ body {
 	color: #1c1a1c;
 }
 
+footer {
+	font-size: 18px;
+}
+
 /* Custom Nav bar */
 .navbar {
 	text-align:center;
@@ -43,14 +47,26 @@ body {
 }*/
 
 .about {
-	padding: 50px;
+	padding: 30px;
 }
 
 .projects {
-	padding: ;
+	padding: 30px ;
 }
 
-.borders {
+.education {
+	padding: 30px;
+}
+
+.img-education {
+	width:100px;
+	height: 100px;
+	margin-top: 10px;
+
+}
+
+/*.borders {
     border-bottom-style: solid;
     border-bottom-width: thin;
-}
+    border-bottom-color: white;
+}*/
