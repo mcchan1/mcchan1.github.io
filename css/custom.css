@@ -1,4 +1,7 @@
-
+body {
+	background: url(background.jpg);
+	background-size: 80%;
+}
 
 /* Custom Nav bar */
 .navbar {
