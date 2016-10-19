@@ -7,7 +7,7 @@ console.log('loading map..');
 		"lat": '40.773609', 
 		"lng": '-73.989434',
 		"position":'Partner',
-		"description":'Legal eagle'
+		"description":'Intellecutual Property & Banking Law'
 	},
 	{	
 		"title": 'Magnum Water Technolgy Ltd',
@@ -15,7 +15,7 @@ console.log('loading map..');
 		"lat": '31.222000', 
 		"lng": '121.493232',
 		"position":'Chief Operating Officer',
-		"description":'Organize Stuff. Legal/Compliance. '
+		"description":'Legal/Compliance. Organizing Stuff '
 	},
 		{	
 		"title": 'East West Bank',
@@ -23,25 +23,9 @@ console.log('loading map..');
 		"lat": '37.794590', 
 		"lng": '-122.403342',
 		"position":'Corporate Counsel',
-		"description":'Legal eagle'
+		"description":'Banking & Distressed Debt'
 	}
 	
-// 		{
-// 		"title": 'Law Office of Michael Chan',
-// 		"date": '2008-2009',
-// 		"lat": '40.764528', 
-// 		"lng": '-73.979632',
-// 		"position":'Solo',
-// 		"description":'Legal eagle'
-// 	},
-// 	{
-// 		"title": 'Anthony Arther & Associates',
-// 		"date": '2006-2007',
-// 		"lat": '40.759568', 
-// 		"lng": '-73.981960',
-// 		"position":'Associate',
-// 		"description":'Legal eagle'
-// 	}
 ];
     window.onload = function () {
         initMap();
