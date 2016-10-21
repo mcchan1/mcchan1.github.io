@@ -1,7 +1,8 @@
 body {
-	background: url(background2.jpg);
-	background-size: 33%;
-	color: #1c1a1c;
+	/*background: url(background2.jpg);
+	background-size: .5%;*/
+	/*color: #1c1a1c;*/
+    color:blueviolet;
 }
 
 footer {
@@ -20,6 +21,7 @@ header h1 {
 }
 .navbar .nav {
 	float:none;
+    background-color: gray;
 }
 .navbar .nav li {
 	display:inline-block;
@@ -101,6 +103,7 @@ header h1 {
     max-height: 300px;
     padding-bottom: 10px;
     width: 100%
+
 }
 
 .portfolio-item iframe {
