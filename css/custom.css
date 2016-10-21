@@ -1,6 +1,6 @@
 body {
 	background: url(background2.jpg);
-	background-size: 100%;
+	background-size: 33%;
 	color: #1c1a1c;
 }
 
@@ -11,15 +11,6 @@ footer {
 header h1 {
     font-size: 5em; 
 
-}
-.iframe-box {
-    max-width: 741px;
-    max-height: 392px;
-    margin: 1em;
-}
-
-#p5-seriously {
-    width: 120%
 }
 
 /* Custom Nav bar */
@@ -34,7 +25,6 @@ header h1 {
 	display:inline-block;
     float:none;
     font-size: 18px;
-
 }
 
 #contact-me {
@@ -49,7 +39,8 @@ header h1 {
 
 .skills-list {
     font-size: 1.5em; 
-    color: white;
+    font-weight: bold;
+    /*color: white;*/
 }
 
 
@@ -68,32 +59,29 @@ header h1 {
 }*/
 
 .about {
-	padding: 30px;
+	padding: 1em;
+
 }
 
 .projects {
-	padding: 30px ;
+	padding: 1em;
     
 }
 
+.skills { 
+    padding: 1em;
+}
 .education {
-	padding: 30px;
-
-    
+	padding: 1em;
 }
 
 .education-item {
-    color: white;
+   /* color: white;*/
 }
 
 .about-text {
-    color: white;
+    /*color: white;*/
     font-size: 1.5em;
-}
-.project-item {
-    font-size: 1.5em;
-    color: white;
-    padding: 1em;
 }
 
 .img-education {
@@ -103,8 +91,24 @@ header h1 {
 
 }
 
-/*.borders {
-    border-bottom-style: solid;
-    border-bottom-width: thin;
-    border-bottom-color: white;
-}*/
+.portfolio-item {
+    margin-bottom: 25px;
+    /*max-height: 400px;*/
+
+
+}
+.portfolio-item img {
+    max-height: 300px;
+    padding-bottom: 10px;
+    width: 100%
+}
+
+.portfolio-item iframe {
+    max-height: 300px;
+    margin-bottom: 10px;
+}
+
+
+.embed-responsive-16by9 {
+    padding-bottom: 52.25%;
+}
