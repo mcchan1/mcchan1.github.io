@@ -1,8 +1,12 @@
 body {
-	/*background: url(background2.jpg);
-	background-size: .5%;*/
+	background: url(background3.png);
+	background-size: 25%;
 	/*color: #1c1a1c;*/
-    color:blueviolet;
+    color:oldlace;
+}
+
+body a {
+    color: hotpink;
 }
 
 footer {
@@ -21,21 +25,23 @@ header h1 {
 }
 .navbar .nav {
 	float:none;
-    background-color: gray;
-}
+    /*background-color: gray;
+*/}
 .navbar .nav li {
 	display:inline-block;
     float:none;
     font-size: 18px;
+    color:oldlace;
 }
 
 #contact-me {
-	color: #ffd700;
+	/*color: #ffd700;
+*/    color: hotpink;
 }
 
 .navbar-inverse .navbar-nav>li>a {
     /*color: #dcd9d0;*/
-    color: white;
+    color: oldlace;
 }
 
 
