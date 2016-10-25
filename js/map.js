@@ -59,7 +59,7 @@ console.log('loading map..');
                     map.setZoom(15);
                     
                     //Wrap infoWindow inside a div
-                    infoWindow.setContent("<div style = 'width:200px;min-height:40px'>" + data.title +"</br>" + data.date +"</br>" + data.position +"</br>" + data.description + "</div>");
+                    infoWindow.setContent("<div style = 'width:200px;min-height:40px; color:black'>" + data.title +"</br>" + data.date +"</br>" + data.position +"</br>" + data.description + "</div>");
                     infoWindow.open(map, marker);
                 });
             })(marker, data);//(marker,data) loads function
