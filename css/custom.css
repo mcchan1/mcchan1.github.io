@@ -114,3 +114,6 @@ header h1 {
 
 
 #contact li {margin-bottom: 2em}
+.contact p {
+    color: hotpink;
+}
